@@ -11,8 +11,8 @@
 FUNCTION Main()
 ********************************************************************************
 LOCAL oDlg, oBrowse[2], oPage1
-Local cHost := 'localhost', nPorta := 9240, NomeBanco := 'BDAGENDA'
-Local cUsr := 'SYSDBA', cPass := 'dloja', aDados := {}
+Local cHost := 'localhost', nPorta := 9200, NomeBanco := 'BDAGENDA'
+Local cUsr := 'SYSDBA', cPass := 'masterkey', aDados := {}
 
 Public oSql, vpUserDir := CurDrive()+ ":\" + CurDir()
 

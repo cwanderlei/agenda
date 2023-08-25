@@ -88,7 +88,6 @@ if oSql:NetErr()        && Verifica se deu erro
 	Msginfo("Falha na Criação da tabela","Atenção")
    oSql:Rollback()      && Descarta a alteração no banco
 else
-Msginfo('Commit')
    oSql:Commit()        && Comita a alteração no banco
 endif
 
