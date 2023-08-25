@@ -1,0 +1,45 @@
+<!--
+################################################
+# xDevStudio Project - xdev@kssoftware.com.br  #
+# Created @ 25/08/2023 15:15:40                #
+#                                              #
+### Standard xDev Config - Layout v1.5 #########
+-->
+<project>
+   <option compiler="413714">
+   <option outputname="AGENDA">
+   <option targettype="EXE">
+   <option outputpath="D:\AGENDA\">
+   <option root="($)">
+   <option runpath="">
+   <option runparams="">
+   <option pathch="D:\hwgui\include;D:\GitHub\agenda\include;D:\Borland\BCC73\INCLUDE\windows\sdk">
+   <option pathlib="D:\GitHub\agenda\lib">
+   <option pathobj="">
+   <option pathtooutput="D:\GitHub\agenda\obj">
+   <option defines="">
+   <option documentroot="">
+   <option makeincfile="Sim">
+   <option taskprepare="">
+   <option taskfinalize="">
+
+   <compilerparam name="HwGUI.xCompiler">
+      <option presetsname="413714">
+      <option fflagm="Sim">
+      <option fflagn="Sim">
+   </compilerparam>
+
+   <unit filename="Agenda.prg" main="true" compile="Sim">
+   <unit filename="D:\Borland\BCC73\LIB\cw32.lib" compile="Sim">
+   <unit filename="D:\Borland\BCC73\LIB\import32.lib" compile="Sim">
+   <unit filename="D:\GitHub\agenda\lib\fbclient40.lib" compile="Sim">
+   <unit filename="D:\GitHub\agenda\lib\gdlib.lib" compile="Sim">
+   <unit filename="D:\GitHub\agenda\lib\hbzip.lib" compile="Sim">
+   <unit filename="D:\GitHub\agenda\lib\libfi.lib" compile="Sim">
+   <unit filename="D:\GitHub\agenda\lib\libnf.lib" compile="Sim">
+   <unit filename="D:\GitHub\agenda\lib\pdflib.lib" compile="Sim">
+   <unit filename="Funcoes_Sql.prg" compile="Sim">
+   <unit filename="D:\GitHub\agenda\lib\Firebird30.lib" compile="Sim">
+   <unit filename="W32OLE_.PRG" compile="Sim">
+   <unit filename="Funcoes_Diversas.prg" compile="Sim">
+</project>
